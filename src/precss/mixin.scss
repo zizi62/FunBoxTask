@@ -1,0 +1,16 @@
+
+@mixin font($family, $size, $line, $color) {
+  font-family: $family;
+  font-size: $size;
+  line-height: $line;
+  color: $color;
+}
+
+
+@mixin col-l() {
+  @media (max-width: 1200px) {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
