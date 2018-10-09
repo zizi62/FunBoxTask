@@ -26,7 +26,6 @@ body {
 .item__block {
     width: 320px;
     margin: 40px;
-    text-align: center;
     @include col-l();
 }
 .items {
@@ -41,8 +40,8 @@ body {
     border-radius: 10px;
     position: relative;
     padding: 16px 48px;
-    text-align: start;
     cursor: pointer;
+    text-align: left;
 
     .cover{
         position:absolute;
